@@ -59,9 +59,12 @@ nav .navbox{
     width: 80%;
     text-align: center;
     display: block;
-    font-size: 2rem;
+    font-size:1rem;
     /* margin: auto; */
 
+}
+#displaySc input:active{
+  border: none;
 }
 #btn_submit{
     margin: 5vh;
