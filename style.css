@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#screen{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    background-color:rgba(244, 244, 244, 0.877);
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    width: 100vw;
+    background-color : rgb(75, 84, 255);
+    height: 30%;
+    justify-content: space-around;
+    color: aliceblue;
+    font-family: cursive;
+}
+nav div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+
+}
+nav .navbox{
+    background-color: aliceblue;
+    width: 6rem;
+    color: rgb(197, 0, 0);
+    
+}
+
+#displaySc{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* border: 2px solid red; */
+    align-items: center;
+    
+}
+#displaySc input{
+    border: none;
+    border-radius: 40px;
+    margin-top: 10vh;
+    padding: 4rem;
+    width: 80%;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    /* margin: auto; */
+
+}
+#btn_submit{
+    margin: 5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 2vh;
+    width: 30vw;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}   
+#btn_submit:active{
+    scale: 1.1;
+    background-color: rgb(55, 196, 55);
+}
+#displayboxes{
+    transition: all 0.5s ease;
+}
+#disp{
+    font-size: 2rem;
+    transition: all 0.5s;
+}
